@@ -8,6 +8,7 @@ import 'typeface-lobster';
 import 'typeface-open-sans';
 import 'font-awesome/css/font-awesome.css';
 import 'bootstrap-social/bootstrap-social.css';
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
