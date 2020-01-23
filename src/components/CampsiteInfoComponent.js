@@ -103,10 +103,7 @@ import { baseUrl } from '../shared/baseUrl';
             this.toggleModal = this.toggleModal.bind(this);
             this.handleSubmit = this.handleSubmit.bind(this);
             this.state = {
-              isModalOpen: false,
-              touched: {
-                firstName: false,
-              }
+              isModalOpen: false
             };
         }
     
