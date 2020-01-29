@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbItem,
+import { Card, CardImg, CardText, CardBody, Breadcrumb, BreadcrumbItem,
      Modal, ModalHeader, ModalBody, Label, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { Loading } from './LoadingComponent';
@@ -132,7 +132,7 @@ import { FadeTransform, Fade, Stagger } from 'react-animation-components';
         render(){
             return(
                 <React.Fragment>
-                    <button outline onClick={this.toggleModal}><i className="fa fa-pencil fa-lg" />Submit Comment</button>
+                    <Button outline onClick={this.toggleModal}><i className="fa fa-pencil fa-lg" />Submit Comment</Button>
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                     <ModalHeader toggle={this.toggleModal}>Submit Comment</ModalHeader>
                     <ModalBody>
